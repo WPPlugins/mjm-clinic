@@ -1,0 +1,321 @@
+.mjm_clinic_service_session_info_widget_booking-link{
+    display:block;
+    background-color:transparent;
+    border:1px solid #DB5A25;
+    margin-top:5px;
+    margin-bottom:5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    text-align:center;
+    font-size:147%;
+    line-height:50px;
+    color:#FFF;
+    font-weight:bold;
+}
+
+.mjm_clinic_service_session_info_widget_booking-link:hover,
+.mjm_clinic_service_locations_widget_output_booking-link:hover,
+.mjm_clinic_service_locations_widget_output_map-link:hover,
+.mjm_clinic_service_locations_widget_output_tel-link:hover,
+.mjm_clinic_indication_tags_widget_output_link:hover{
+    color:#FFF;
+    background-color:#5C5C5C;
+}
+
+.mjm_clinic_service_locations_widget_output_booking-link,
+.mjm_clinic_service_locations_widget_output_map-link,
+.mjm_clinic_service_locations_widget_output_tel-link
+{
+    display: block;
+    background-color:transparent;
+    border:1px solid #5C5C5C;
+    margin-top:3px;
+    margin-bottom:3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    font-size:100%;
+    padding:3px;
+    color:#FFF;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.mjm_clinic_service_locations_widget_output_booking-link i,
+.mjm_clinic_service_locations_widget_output_map-link i,
+.mjm_clinic_service_locations_widget_output_tel-link i {
+    margin-right:4px;
+    margin-left:4px;
+    min-width:15px;
+}
+
+.mjm_clinic_service_locations_widget_output_entry-container{
+     margin-top:15px;
+     padding-bottom:10px;
+    margin-bottom: 5px;
+     border-bottom: 1px solid darkgray;
+
+}
+
+.mjm_clinic_service_locations_widget_output_open-hours{
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+.mjm_clinic_service_locations_widget_output_location-name{
+    font-size: 108%;
+    font-weight:bold;
+}
+
+.mjm_clinic_service_locations_widget_output_location-name i{
+    margin-right:5px;
+    margin-left:2px;
+    color:#DB5A25;
+}
+
+.mjm_clinic_indication_tags_widget_output_link{
+    background-color:transparent;
+    border:1px solid #5C5C5C;
+    margin:2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    font-size:80%;
+    padding:3px;
+    color:#FFF;
+    font-weight: bold;
+}
+
+.mjm_clinic_indication_tags_widget_output_entry-container i{
+    color:#036;
+}
+
+.mjm_clinic_assigned_case_studies_widget_output_entry-container,
+.mjm_clinic_assigned_patient_feedback_widget_output_entry-container{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+    .mjm_clinic_assigned_case_studies_widget_output_title-link,
+    .mjm_clinic_assigned_patient_feedback_widget_output_title-link{
+        font-weight: bold;
+        display: block;
+    }
+    .mjm_clinic_assigned_case_studies_widget_output_excerpt,
+    .mjm_clinic_assigned_case_studies_widget_output_more-link,
+    .mjm_clinic_assigned_patient_feedback_widget_output_more-link{
+        display: block;
+    }
+
+    .mjm_clinic_assigned_case_studies_widget_output_more-link,
+    .mjm_clinic_assigned_patient_feedback_widget_output_more-link{
+        color: #036;
+    }
+
+.mjm_clinic_shared_symptoms_widget_output_entry-container{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+    .mjm_clinic_shared_symptoms_widget_output_title-link{
+        display: block;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size:90%;
+    }
+
+    .mjm_clinic_shared_symptoms_widget_output_entry-tag-container{
+        display:block;
+        font-size:70%;
+        margin-left:10px;
+    }
+
+    .mjm_clinic_shared_symptoms_widget_output_tag-link{
+        background-color:#FFFFFF;
+        margin:2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius:2px;
+        -khtml-border-radius: 2px;
+        border-radius: 2px;
+        padding:1px;
+        display: block;
+    }
+
+.mjm_clinic_assigned_services_widget_output_entry-container {
+    margin:10px;
+    font-size:90%;
+}
+
+.mjm_clinic_service_session_info_widget_output_session-info-container{
+    margin-top:10px;
+}
+.mjm_clinic_service_session_info_widget_output_session-info{
+    margin-top:5px;
+}
+
+.mjm_clinic_assigned_conditions_widget_output_entry-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+    .mjm_clinic_assigned_conditions_widget_output_title-link{
+        display: block;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .mjm_clinic_assigned_conditions_widget_output_more-link{
+        display:block;
+    }
+
+
+/**
+* Booking Form
+*/
+.mjm_clinic_booking_form label{
+    display: block;
+    margin-top: 10px;
+}
+
+.mjm_clinic_booking_form label.error{
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.mjm_clinic_input_text.error, .mjm_clinic_input_select.error{
+    border:1px solid red;
+}
+
+.mjm_clinic_bf_submit_button{
+    margin-top: 10px;
+}
+
+.mjm_clinic_bf_location_title, .mjm_clinic_bf_service_title{
+    display: inline;
+}
+
+.mjm_clinic_service_locations_widget_output_booking-form{
+    padding: 5px;
+}
+
+.mjm_clinic_bf_success_msg_contain{
+    padding: 5px;
+    background-color: lightgreen ;
+    cursor: pointer;
+}
+
+
+/**
+* Boxlink service output
+**/
+
+.mjm_clinic_service_boxlink_a{
+    padding:10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: block;
+}
+
+.mjm_clinic_service_boxlink_a:hover{
+ border: 1px solid darkgray;
+}
+
+.mjm_clinic_service_boxlink_category_container, .mjm_clinic_service_boxlink_container{
+    width:33%;
+    float:left;
+}
+
+.mjm_clinic_service_boxlink_image_contain, .mjm_clinic_service_boxlink_image{
+    width:172px;
+    height:138px;
+    margin:auto;
+    text-align: center;
+    max-width: 100%;
+    background-color: darkgray;
+}
+
+.fa.mjm_clinic_service_boxlink_icon{
+    line-height: 138px;
+}
+
+
+/**
+* Conditions Searchable List Output
+**/
+.mjm_clinic_shortcode_condition_list_contain {
+    margin:0;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_entry {
+    display:block;
+    background-color: #eee;
+    padding:10px;
+    box-shadow: inset 0 1px 0 #fff;
+    margin-bottom: 5px;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_entry_text_contain{
+    float:left;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_entry_clear{
+    clear:both;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_image {
+    width:100px;
+    float: left;
+    margin-right:10px;
+    max-width: 50%;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_name {
+    font-size: 16px;
+    margin:0 0 0.3rem;
+    font-weight: normal;
+    font-weight:bold;
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_excerpt {
+    margin:0;
+}
+
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_search {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom:10px
+}
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_search:focus {
+    outline:none;
+    border-color:#aaa;
+}
+
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_tags_contain{
+    margin-top:5px;
+}
+
+.mjm_clinic_shortcode_condition_list .mjm_clinic_shortcode_condition_list_tags_contain a{
+    background-color:white;
+    border:1px solid #5C5C5C;
+    margin:2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    font-size:80%;
+    padding:3px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mjm_clinic_staff_list_container{
+    clear:left;
+    margin-bottom: 10px;
+}
+.mjm_clinic_staff_list_image_contain{
+    float:left;
+    margin-right: 10px;
+}
+.mjm_clinic_staff_list_content_contain{
+    float:left;
+}
